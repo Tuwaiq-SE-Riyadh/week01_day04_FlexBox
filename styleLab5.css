@@ -1,0 +1,49 @@
+#parent {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+
+    /* gap: 10px; */
+    /* column-gap: 10px;
+    row-gap: 10px; */
+
+    justify-content: center;
+
+    align-items: center;
+}
+.hero-image {
+    display: flex;
+    background-image: url("https://github.com/AfnanAl97/week01_day04_FlexBox/blob/main/french-soup/images/soup.jpg?raw=true");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.hero-image2 {
+    display: flex;
+    justify-content: center;
+    repeat: no-repeat;
+    size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.text1{
+
+    text-align: center;
+    color: grey;
+}
+.text{
+    /*text-align: center;*/
+    color: grey;
+}
