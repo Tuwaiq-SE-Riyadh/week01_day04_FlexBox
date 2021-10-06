@@ -1,0 +1,62 @@
+div#parent{
+    background-color:white;
+    flex-direction: column;
+    margin: 1cm;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    row-gap: 80px;
+}
+ 
+div#apple_pie{
+    
+    background-image: url('apple-pie.jpg');
+    background-size: 100% 100%;
+   /* background-size: 100%*/
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 6in;
+   width: 100%; 
+   
+}
+h1{
+    color: white;
+}
+
+div#P3{
+    
+width: 70%;
+}
+div#P1{
+    
+    width: 70%;
+
+    }
+div#P2{
+    
+        width: 70%;
+        }
+
+div#image_1{
+    background-image: url('https://raw.githubusercontent.com/Tuwaiq-SE-Riyadh/week01_day04_FlexBox/main/applepie/images/recipe-info.png');  
+}
+
+p{
+font-size: 180%;
+font-family: Arial;
+
+}
+
+div{
+    flex-direction: column;
+    display: flex;
+    
+    justify-content: center;
+}
+
+h4{
+    font-size: 180%;
+    font-family: Arial;
+    font-display: left;
+}
