@@ -7,3 +7,24 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.first{
+  
+  background: url(/applepie/images/apple-pie.jpg);
+  background-size: cover;
+  height:700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  color: white;
+}
+
+.Second{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  
+}
