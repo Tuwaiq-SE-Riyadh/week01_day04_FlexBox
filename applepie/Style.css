@@ -1,0 +1,37 @@
+#background{
+    background-image: url('images/apple-pie.jpg');
+    background-size: 100% 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+    font-family:fantasy;
+    color: rgb(252, 248, 236);
+    height: 500px;
+    width: 100%;
+}
+
+#image-background{
+    width: 3000px;
+    height: 1000px;
+}
+
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 4%;
+    font-size: 42px;
+}
+
+#recipe-info{
+    justify-self: center;
+    align-self: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
