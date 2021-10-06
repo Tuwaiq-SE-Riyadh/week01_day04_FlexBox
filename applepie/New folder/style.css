@@ -1,0 +1,33 @@
+#parent {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+
+    /* gap: 10px; */
+    /* column-gap: 10px;
+    row-gap: 10px; */
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+child1 {
+
+}
+
+child2 {
+    
+}
+
+child3 {
+    
+}
+
+child4 {
+    
+}
+
+child5 {
+    
+}
