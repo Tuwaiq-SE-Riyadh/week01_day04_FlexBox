@@ -1,0 +1,53 @@
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    
+    .centered {
+        position: absolute;
+        font-size: 100px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .apple {
+        width: 1000px;
+        height: 800px;
+    }
+    
+    .time,
+    .info {
+        width: 30%;
+    }
+    
+    .div3,
+    .div4 {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .div2 {
+        display: flex;
+    }
+    /* .p1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    } */
+    
+    .page {
+        position: absolute;
+        width: 60%;
+        left: 20%;
+        border: 6px solid rgba(207, 226, 137, 0.8);
+        margin: 4%;
+        padding-right: 10px;
+    }
+    
+    #id1 {
+        margin-left: 20%;
+    }
